@@ -14,9 +14,6 @@ CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WOR
 IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
 RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MATCH. (YOUR CHOICE)
 --------------------------------------------------------------------------------------------------------------------------------------------
-/*Change the url in .app to change the background behind chat */
-
-.app, .callout-backdrop, .userPopout-4pfA0d::before { background-image: url("https://i.imgur.com/JShuhis.png") !important; background-size: cover !important;}*/
 
 ----------------------------------------------------------------------
 |                         CREDITS TO:                                |
@@ -33,7 +30,7 @@ RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MA
 /* Replace Reborn Wallpaper */
 
 #app-mount .app, #app-mount .callout-backdrop, #app-mount .userPopout-4pfA0d::before {
-    background-image: url(http://i.4cdn.org/wg/1510447224448.jpg)!important;
+    background-image: url(http://i.4cdn.org/wg/1510447224448.jpg) !important;
 }
 
 [class*="avatar-"], .status, [class*="avatarStatus"], .image-EVRGPw{border-radius: 50% !important;}
