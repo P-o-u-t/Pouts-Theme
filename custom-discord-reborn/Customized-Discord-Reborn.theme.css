@@ -1,0 +1,31 @@
+/* IMPORT CSS FROM GITHUB */
+@import url("https://cdn.rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
+/*
+===== IMPORTANT =====
+CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+===== CUSTOMIZABLE COLORS =====
+*/
+:root { 
+	--main-color: #0064B4;
+	--hover-color: #0064B4;
+ }
+ /*
+===== CUSTOMIZABLE IMAGES =====
+IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
+RECOMMENDATIONS: EVERY URL AT THE BOTTOM SHOULD BE THE SAME TO MAKE THE THEME MATCH. (YOUR CHOICE)
+--------------------------------------------------------------------------------------------------------------------------------------------
+/*Change the url in .app to change the background behind chat */
+
+.app, .callout-backdrop, .userPopout-4pfA0d::before { background-image: url("https://i.imgur.com/JShuhis.png") !important; background-size: cover !important;}*/
+
+ /*
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CREDITS =====
+URI
+BEARDDESIGN
+ZERTHOX
+THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP GO TO HTTPS://BETTERDOCS.NET
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
