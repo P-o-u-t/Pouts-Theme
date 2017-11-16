@@ -1,11 +1,11 @@
 /* IMPORT CSS FROM GITHUB */
 @import url("https://cdn.rawgit.com/0mniscient/Discord-Themes/master/css/Discord%20Reborn.css");
-
+/*
 ----------------------------------------------------------------------
 |                         CREDITS TO:                                |
 |  Omniscient#0002, Izy#5368, cube_guy#2026, Dingus#6977, Pout#0350  |
 ----------------------------------------------------------------------
-
+*/
 /* Change Main & Hover Color */
 
 :root { 
@@ -87,15 +87,15 @@
 /* Color Muted Icon Arrow */
 
 .iconMuted-Hb4ttQ {
-    color: var(--main-color); !important
+    color: var(--main-color) !important;
     opacity: 0.6!important;
 }
 
 /* Button Recolor */
 
 .icon-2WU8ha {
-    fill: color: var(--main-color); !important;
-    transform: translateY(-4px)  
+    color: var(--main-color) !important;
+    transform: translateY(-4px);
 }
 
 /* Revert Account Details Text */
@@ -219,7 +219,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
 #friends [class*='flex-'] [class*='flex-']:last-of-type:after,
 [class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {content: '';width: 1px;height: 22px;background-color: hsla(240,6%,97%,.1);}
-}
+
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'],
 #friends [class*='flex-'] [class*='flex-']:last-of-type,
@@ -398,7 +398,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Change Server Name Color */
 
 .header-1tSljs {
-    color: var(--main-color); !important
+    color: var(--main-color) !important;
 }
 
 /* Color Call/Pin/Add/Help Buttons */
@@ -422,7 +422,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Color Timestamps */
 
 .theme-dark .message-group h2 span {
-    color: var(--main-color);(0, 0%, 100%, 0.2);
+    color: var(--main-color);
 }
 
 /* Playing/Gametitle Color */
@@ -431,13 +431,13 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
     color: var(--main-color);
 }
 .private-channels .channel:hover .channel-activity {
-    color: var(--hover-color);!important;opacity:.7
+    color: var(--hover-color)!important;opacity:.7
 }
 
 /* Search Bar Search Color */
 
 .theme-dark .search .DraftEditor-root {
-    color: var(--main-color); !important
+    color: var(--main-color) !important;
 }
 
 /* @ button in DMs */
@@ -463,17 +463,17 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Voice Connect OK To Main Color */
 
 .inner-ptMwR- .rtc-connection-status-connected {
-    color: var(--main-color); !important
+    color: var(--main-color) !important;
 }
 .inner-ptMwR- .rtc-connection-quality-fine .ping {
     background-image: url(https://i.imgur.com/RZCOtTu.png);
 }
 .buttonGreenFilled-6QHNrw {
-    background-color: var(--main-color); !important
+    background-color: var(--main-color) !important;
     color: #fff;
 }
 .buttonGreenFilledDefault-_lLQaz:hover {
-    background-color: var(--hover-color); !important
+    background-color: var(--hover-color) !important;
 }
 .ui-call-avatar-border.video.speaking {
     -webkit-box-shadow: inset 0 0 0 2px #5d7a56;
@@ -492,7 +492,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Uploading File Text */
 
 .message-group .comment .attachment .upload>.filename {
-    color: var(--main-color); !important
+    color: var(--main-color) !important;
 }
 
 /*----------------------------------------------------------------------*/
