@@ -1,3 +1,5 @@
+* **HOW TO:**
+
 * **Themes go into %AppData%\BetterDiscord\themes**
 
 ## [Download](https://github.com/P-o-u-t/Pouts-Theme/releases/download/theme/Theme.rar)
