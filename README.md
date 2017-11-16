@@ -1,4 +1,4 @@
- **H O W  T O:**
+Locations.
 
 * **Themes go into %AppData%\BetterDiscord\themes**
 
