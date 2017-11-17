@@ -550,7 +550,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 }
 #app-mount .private-channel-call {
     background-color: rgba(0,0,0,0.4) !important;
-    top: -60px;
+    top: -49px;
 }
 #app-mount .chat.private .content {
     position: absolute;
