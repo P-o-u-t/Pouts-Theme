@@ -537,4 +537,10 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
     background-image: url(https://i.imgur.com/DhcqheX.png) !important;
 }
 
+/* Circular Screenshare Avatars */
+
+.ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
+    border-radius: 50% !important;
+}
+
 /*----------------------------------------------------------------------*/
