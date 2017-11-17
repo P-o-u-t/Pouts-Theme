@@ -467,7 +467,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
     color: var(--main-color) !important;
 }
 .inner-ptMwR- .rtc-connection-quality-fine .ping {
-    background-image: url(https://i.imgur.com/oeu6oRT.png);
+    background-image: url(https://i.imgur.com/oeu6oRT.png) !important;
 }
 .buttonGreenFilled-6QHNrw {
     background-color: var(--main-color) !important;
@@ -501,6 +501,21 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 .ui-call-avatar-border.video.selected:not(.speaking) {
     -webkit-box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
     box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
+}
+
+/* Call Button Color Change */
+
+.private-channel-call-actions [class*='iconButton-']:nth-child(1) {
+    background-image: url(https://i.imgur.com/3iUmudb.png) !important;
+}
+.private-channel-call-actions [class*='iconButton-']:nth-child(2) {
+    background-image: url(https://i.imgur.com/EGCoG37.png) !important;
+}
+.private-channel-call-actions [class*='iconButton-']:nth-child(3) {
+    background-image: url(https://i.imgur.com/F4Qf7O6.png) !important;
+}
+.private-channel-call-actions [class*='iconButton-']:nth-child(4) {
+    background-image: url(https://i.imgur.com/DhcqheX.png) !important;
 }
 
 /*----------------------------------------------------------------------*/
