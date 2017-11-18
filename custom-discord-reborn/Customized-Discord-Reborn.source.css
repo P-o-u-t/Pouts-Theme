@@ -574,4 +574,13 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 .chat .divider > span {
     color: var(--hover-color) !important;
 }
+
+/* Splash Change */
+
+body:before {
+    content: "Thank you for using Pout's Theme!";
+    color: #fff;
+    background: var(--main-color);
+
+}
 /*----------------------------------------------------------------------*/
