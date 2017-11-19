@@ -29,15 +29,18 @@
 .guilds [class*="avatar-"]{border-radius: 0 !important;}
 .mask-2vyqAW{border-radius: 50% !important;}
 .card-3cnrFh{border-radius:50%!important;}
-
-/* Circular Avatars Hover Fix */
-
 .mask-2vyqAW{border-radius: 50% !important;}
+.ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
+    border-radius: 50% !important;
+}
 
-/* Remove Bottom Right Box */
+/* Revert Account Details */
 
 .channel-members::after, #friends .friends-table .friends-table-body::after{display:none !important;}
 [class*="scroller-"].channel-members { height: 100%!important;}
+#app-mount .accountDetails-15i-_e { position:unset !important; min-width:unset !important; bottom:0px !important; }
+#app-mount .accountDetails-15i-_e .username { margin-left: unset !important; border: none !important; font-family:Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important; font-size:15px !important; font-weight:400 !important; color:white !important; text-align:unset !important; height:30px!important; line-height:10px!important; }
+.accountDetails-15i-_e .discriminator {display: inline block !important; font-size: 12px !important; position: unset !important;}
 
 /* Make Channel Categories Match Role Categories */
 
@@ -96,12 +99,6 @@
     color: var(--main-color) !important;
     transform: translateY(-4px);
 }
-
-/* Revert Account Details Text */
-
-#app-mount .accountDetails-15i-_e { position:unset !important; min-width:unset !important; bottom:0px !important; }
-#app-mount .accountDetails-15i-_e .username { margin-left: unset !important; border: none !important; font-family:Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important; font-size:15px !important; font-weight:400 !important; color:white !important; text-align:unset !important; height:30px!important; line-height:10px!important; }
-.accountDetails-15i-_e .discriminator {display: inline block !important; font-size: 12px !important; position: unset !important;}
 
 /* Remove Line Dude Name */
 
@@ -535,12 +532,6 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 
 .private-channel-call-actions [class*='iconButtonDefault-']:nth-child(5) {
     background-image: url(https://i.imgur.com/DhcqheX.png) !important;
-}
-
-/* Circular Screenshare Avatars */
-
-.ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
-    border-radius: 50% !important;
 }
 
 /* Transparent Voice Calling */
