@@ -568,7 +568,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Splash Change */
 
 html body:before {
-    content: "Thank you for using Pout's Theme!";
+    content: "Thank you for using Pout's Theme!"; !important
     color: #fff; 
     background: var(--main-color); !important
 }
