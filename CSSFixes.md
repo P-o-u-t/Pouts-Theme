@@ -15,7 +15,7 @@
 
 * **Replaces Background of Discord**
 
-/* Replace Reborn Wallpaper */
+/* Replace Wallpaper */
 
 #app-mount .app, #app-mount .callout-backdrop, #app-mount .userPopout-4pfA0d::before {
     background-image: url(http://i.4cdn.org/wg/1510447224448.jpg) !important;
