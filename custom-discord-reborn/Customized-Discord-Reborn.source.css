@@ -576,7 +576,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 html body:before {
     content: "Thank you for using Pout's Theme!" !important;
     color: #fff; 
-    background: var(--main-color) !important;
+    background: var(--main-color) !important
 }
 
 /* Customized User Tags */
@@ -697,7 +697,12 @@ html body:before {
 
 /* Information Box */
 
-#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hello! Omni has a server where I normally am situated \A there you will find the following: \A\A → Customizable options for the theme. \A → You can give us feedback \A → Tons of bots. \A \A → Join the server at discord.me/mrrobotserver \A → Loads of people willing to assist with anything. \A → It's also easier to report bugs on the server. \A\A We hope to see you with us soon!"!important;}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hello! Omni has a server where I normally am situated \A there you will find the following: \A\A → Customizable options for the theme. \A → You can give us feedback \A → Tons of bots. \A \A → Join the server at discord.me/mrrobotserver \A → Loads of people willing to assist with anything. \A → It's also easier to report bugs on the server. \A\A We hope to see you with us soon!"!important;
+background-color: var(--main-color);}
+
+/* Current Theme Box */
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: "You're currently using: Pout's Theme. \A Thank you!"!important;}
 
 /* Move Update Button in Themes */
 
