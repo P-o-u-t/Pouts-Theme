@@ -614,8 +614,6 @@ html body:before {
 
 /* Customized Help Tab */
 
-/* Customized Help Tab */
-
 .need-help-modal .header h1::after{
     content:"Pout's Theme!" !important;
 }
@@ -632,7 +630,7 @@ html body:before {
 
 .need-help-modal .form-inner.loading{background:transparent;padding-bottom:0px;padding-top:0px;}
 
-.need-help-modal .form-inner.loading::after{content:"What the fuck";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff;} !important
+.need-help-modal .form-inner.loading::after{content:"What the fuck";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff !important;}
 
 .need-help-modal .form-inner > ul{display:none;}
 
@@ -672,8 +670,8 @@ html body:before {
 /* Fixed Invite Box */
 
 .theme-dark .wrapper-uAa07y {
-    background: rgba(0, 0, 0, 0.6); !important
-    border-color: rgba(47,49,54,.9); !important
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-color: rgba(47,49,54,.9) !important;
 }
 
 .guildIcon-KMiSsu {
@@ -686,7 +684,7 @@ html body:before {
 
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx {
     border-color: hsla(218,5%,47%,.3);
-    background-color: var(--main-color); !important
+    background-color: var(--main-color) !important; 
     color: #fff
 
 }
