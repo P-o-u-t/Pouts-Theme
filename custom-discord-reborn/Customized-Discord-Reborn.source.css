@@ -628,7 +628,7 @@ html body:before {
 
 .need-help-modal .form-inner.loading{background:transparent;padding-bottom:0px;padding-top:0px;}
 
-.need-help-modal .form-inner.loading::after{content:"What the fuck";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff;}
+.need-help-modal .form-inner.loading::after{content:"What the fuck";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff;} !important
 
 .need-help-modal .form-inner > ul{display:none;}
 
@@ -636,7 +636,7 @@ html body:before {
 
 .need-help-modal .footer{background-color:transparent;color:transparent;border-top:0px #e9e7e7 solid;padding-top:0px;padding-left:0px;width:100%;position:relative;}
 
-.need-help-modal .footer::after{content:"Help?!";background-color:#19191b;width:100%;height:34px;position:absolute;bottom:0;left:0;line-height:32px;border-radius:0 0 5px 5px;border-top:2px solid #161618;color:#fff;}
+.need-help-modal .footer::after{content:"Help?!";background-color:#19191b;width:100%;height:34px;position:absolute;bottom:0;left:0;line-height:32px;border-radius:0 0 5px 5px;border-top:2px solid #161618;color:#fff;} !important
 
 .need-help-modal .form-inner.loading .spinner{display:none!important;}
 
