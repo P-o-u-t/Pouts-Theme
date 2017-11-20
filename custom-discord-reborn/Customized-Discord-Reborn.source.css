@@ -573,4 +573,43 @@ html body:before {
     background: var(--main-color); !important
 }
 
+/* Customized User Tags */
+
+.message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::after,.channel-members .member .avatar-small[style*="310719627292573697"] ~ .member-inner .member-username .member-username-inner::after{content:"GBC Forever";background:#F62459;color:#fff;border-radius:3px;margin-left:6px;font-size:10px;font-weight:600;padding:1px 4px;text-transform:uppercase;vertical-align:bottom;line-height:16px;-webkit-flex-shrink:0;flex-shrink:0;text-shadow: 0px 1px 1px #000;}
+
+/* Replace Light & Dark Mode Text */
+
+/* -Light Mode- */
+/* Theme Mode */
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr{line-height: 0;font-size: 0;}
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .title-1pmpPr:after{content: "Custom Themes";line-height: 16px;font-size: 12px;}
+
+/* Hides Real Theme Mode Name */
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+
+.theme-light .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light [Enabled!]"}
+
+/* -Dark Mode- */
+/* Hides Real Theme Mode Name */
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras{line-height: 0;font-size: 0;}
+
+/* Replaces it with Spoofed Name */
+
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Pout Dark";line-height: 24px;font-size: 16px;}
+
+/* Enabled */
+
+.theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Pout Dark [Enabled!]";}
+
+.theme-light .accountDetails-15i-_e .username{background-color: #fff;border-top: 2px solid #f6f6f7 !important;}
+
 /*----------------------------------------------------------------------*/
