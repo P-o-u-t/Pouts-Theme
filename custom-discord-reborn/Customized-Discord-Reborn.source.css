@@ -691,4 +691,9 @@ html body:before {
 
 }
 
+/* Current Theme Box */
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: "You're currently using: Pout's Theme. \A Thank you!"
+    ""!important;}
+
 /*----------------------------------------------------------------------*/
