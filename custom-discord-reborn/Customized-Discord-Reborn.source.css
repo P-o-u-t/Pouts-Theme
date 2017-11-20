@@ -669,4 +669,19 @@ html body:before {
     top: 20px;
 }
 
+/* Fixed Invite box */
+
+.theme-dark .wrapper-uAa07y {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: rgba(47,49,54,.9);
+}
+
+.guildIcon-KMiSsu {
+    flex-shrink: 0;
+    height: 50px;
+    margin-right: 15px;
+    width: 50px;
+    border-radius: 50% !important;
+}
+
 /*----------------------------------------------------------------------*/
