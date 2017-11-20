@@ -14,4 +14,10 @@
 
 **Theme Preview:**
 
+* **Friends View:**
+
 ![](https://i.imgur.com/omUKgf9.png)
+
+* **Server View:**
+
+![](https://i.imgur.com/0eZYuqZ.png)
