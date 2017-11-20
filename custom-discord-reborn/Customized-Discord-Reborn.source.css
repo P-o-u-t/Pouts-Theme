@@ -612,4 +612,34 @@ html body:before {
 
 .theme-light .accountDetails-15i-_e .username{background-color: #fff;border-top: 2px solid #f6f6f7 !important;}
 
+/* Customized Help Tab */
+
+.need-help-modal .header h1::after{content:"Pout's Theme!" !important
+    
+.need-help-modal .header{background-color:transparent;height:140px;;padding:0;}
+
+.need-help-modal .header::after{content:"";background-color:var(--main-color);border-top-left-radius:3px;border-top-right-radius:3px;position:relative;z-index:10;height:150px;width:100%;padding:0;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;}
+
+.need-help-modal .header h1{color:transparent;font-weight:700;margin:38px 0 0;font-size:18px;}
+
+.need-help-modal .header input[type=text]{display:none;}
+
+.need-help-modal .header h1{color:transparent;font-weight:700;margin:38px 0px 0px;font-size:18px;margin-right:36%;top:15%;position:relative;}
+
+.need-help-modal .form-inner.loading{background:transparent;padding-bottom:0px;padding-top:0px;}
+
+.need-help-modal .form-inner.loading::after{content:"What the fuck";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff;}
+
+.need-help-modal .form-inner > ul{display:none;}
+
+.need-help-modal .footer a{display:none;}
+
+.need-help-modal .footer{background-color:transparent;color:transparent;border-top:0px #e9e7e7 solid;padding-top:0px;padding-left:0px;width:100%;position:relative;}
+
+.need-help-modal .footer::after{content:"Help?!";background-color:#19191b;width:100%;height:34px;position:absolute;bottom:0;left:0;line-height:32px;border-radius:0 0 5px 5px;border-top:2px solid #161618;color:#fff;}
+
+.need-help-modal .form-inner.loading .spinner{display:none!important;}
+
+.need-help-modal .form-inner .failed{display:none;}
+
 /*----------------------------------------------------------------------*/
