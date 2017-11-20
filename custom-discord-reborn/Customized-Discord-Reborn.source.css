@@ -718,3 +718,9 @@ background-color: var(--main-color);}
     border-radius: 1px;
     display: block;
 }
+
+/* Hover Color Description Links */
+
+.theme-dark .topic-1KFf6J a {
+    color: var(--hover-color) !important;
+}
