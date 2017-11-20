@@ -669,11 +669,11 @@ html body:before {
     top: 20px;
 }
 
-/* Fixed Invite box */
+/* Fixed Invite Box */
 
 .theme-dark .wrapper-uAa07y {
-    background: rgba(0, 0, 0, 0.6);
-    border-color: rgba(47,49,54,.9);
+    background: rgba(0, 0, 0, 0.6); !important
+    border-color: rgba(47,49,54,.9); !important
 }
 
 .guildIcon-KMiSsu {
@@ -682,6 +682,11 @@ html body:before {
     margin-right: 15px;
     width: 50px;
     border-radius: 50% !important;
+}
+
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx {
+    border-color: hsla(218,5%,47%,.3);
+    color: var(--main-color);
 }
 
 /*----------------------------------------------------------------------*/
