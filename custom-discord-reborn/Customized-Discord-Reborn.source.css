@@ -591,11 +591,11 @@ html body:before {
 
 /* Replaces it with Spoofed Name */
 
-.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light";line-height: 24px;font-size: 16px;}
+.layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light [Work in Progress]";line-height: 24px;font-size: 16px;}
 
 /* Enabled */
 
-.theme-light .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light [Enabled!]"}
+.theme-light .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:first-child .info-1Z508c .title-1M-Ras:after{content: "Pout Light"}
 
 /* -Dark Mode- */
 /* Hides Real Theme Mode Name */
@@ -608,7 +608,7 @@ html body:before {
 
 /* Enabled */
 
-.theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Pout Dark [Enabled!]";}
+.theme-dark .layer[layer-id="user-settings"] .user-settings-appearance .flex-vertical > div:nth-child(2) .radioGroup-2P3MJo > div:nth-child(2) .info-1Z508c .title-1M-Ras:after{content: "Pout Dark";}
 
 .theme-light .accountDetails-15i-_e .username{background-color: #fff;border-top: 2px solid #f6f6f7 !important;}
 
