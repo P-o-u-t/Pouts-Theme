@@ -691,20 +691,15 @@ html body:before {
 
 }
 
-/* Current Theme Box */
-
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before{content: "You're currently using: Pout's Theme. \A Thank you!"
-    ""!important;}
-
 /* Information Box */
 
-#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hello! Omni has a server where I normally am situated \A there you will find the following: \A\A → Customizable options for the theme. \A → You can give us feedback \A → Tons of bots. \A \A → Join the server at discord.me/mrrobotserver \A → Loads of people willing to assist with anything. \A → It's also easier to report bugs on the server. \A\A We hope to see you with us soon!";}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after{content: "Hello! Omni has a server where I normally am situated \A there you will find the following: \A\A → Customizable options for the theme. \A → You can give us feedback \A → Tons of bots. \A \A → Join the server at discord.me/mrrobotserver \A → Loads of people willing to assist with anything. \A → It's also easier to report bugs on the server. \A\A We hope to see you with us soon!"!important;}
 
 /* Move Update Button in Themes */
 
 .bd-pfbtn {
     position: relative;
-    top: -173px;
+    top: -253px;
     left: 30px;
     margin-left: 120px;
     margin-bottom: 9px;
