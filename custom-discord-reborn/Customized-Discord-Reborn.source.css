@@ -619,7 +619,6 @@ html body:before {
 
 .need-help-modal .header h1::after{
     content:"Pout's Theme!" !important;
-    font-family: 'permanent-marker', sans-serif !important;
 }
 
 .need-help-modal .header{background-color:transparent;height:140px;;padding:0;}
@@ -647,5 +646,28 @@ html body:before {
 .need-help-modal .form-inner.loading .spinner{display:none!important;}
 
 .need-help-modal .form-inner .failed{display:none;}
+
+/* Customized Pallet Pickers */
+
+[class^="ui-color-picker-swatch"] {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border: 3px solid transparent;
+    border-radius: 12px;
+}
+
+.ui-color-picker-swatch.custom, .ui-color-picker-swatch.default {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+[class^="color-picker-dropper"] {
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
 
 /*----------------------------------------------------------------------*/
