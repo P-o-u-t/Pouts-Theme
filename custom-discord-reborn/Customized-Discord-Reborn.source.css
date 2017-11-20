@@ -686,7 +686,9 @@ html body:before {
 
 .theme-dark .buttonPrimaryOutlinedDefault--H0hhk, .theme-dark .buttonPrimaryOutlinedSubmitting-3m3eFx {
     border-color: hsla(218,5%,47%,.3);
-    color: var(--main-color);
+    background-color: var(--main-color); !important
+    color: #fff
+
 }
 
 /*----------------------------------------------------------------------*/
