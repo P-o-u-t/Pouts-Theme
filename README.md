@@ -9,3 +9,9 @@
 ## [Download Plugins](https://github.com/P-o-u-t/Pouts-Theme/releases/download/theme/Plugins.zip)
 
 * **Plugins go into %AppData%\BetterDiscord\plugins**
+
+ 
+
+**Theme Preview:**
+
+![](https://i.imgur.com/omUKgf9.png)
