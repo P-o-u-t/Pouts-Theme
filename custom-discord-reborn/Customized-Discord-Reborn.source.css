@@ -372,7 +372,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Static Shadow Mention Box */
 
 .message-group .mentioned .message-text { -webkit-animation: mentionpulse 1.5s infinite; animation: mentionpulse s infinite; }
-@-webkit-keyframes mentionpulse { 0% { box-shadow: 0 0 1px 1px var(--main-color); }
+@keyframes mentionpulse { 0% { box-shadow: 0 0 1px 1px var(--main-color); }
   70% { box-shadow: 0 0 1px 1px var(--main-color); }
   to { box-shadow: 0 0 1px 1px var(--main-color); } }
 
@@ -382,7 +382,7 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 
 /* Alternate Typing Indicator */
 
-.status.status-typing.status-online{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;}.status.status-typing.status-idle{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #faa61a!important;}.status.status-typing.status-dnd{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #f04747!important;}.status.status-typing.status-invisible{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #747f8d!important;}.status.status-typing.status-offline{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #282829!important;}.status.status-typing .spinner-item{height:2px;widht:2px;border-radius:0px;}span.spinner{/*opacity:0!important;*/transform:translate(1px, 28px);height:1px;}
+.status.status-typing.status-online{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;}.status.status-typing.status-idle{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #faa61a!important;}.status.status-typing.status-dnd{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #f04747!important;}.status.status-typing.status-invisible{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #747f8d!important;}.status.status-typing.status-offline{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #282829!important;}.status.status-typing .spinner-item{height:2px;width:2px;border-radius:0px;}span.spinner{/*opacity:0!important;*/transform:translate(1px, 28px);height:1px;}
 
 /* Custom Direct Message Icon */
 
@@ -450,9 +450,11 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Change Colour of Status Picker's Online to Main Colour */
 
 .ui-call-avatar-border.voice.speaking {
-    -webkit-box-shadow: inset 0 0 0 3px color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 3px;
+    color: var(--main-color) !important;
     border-radius: 50%;
-    box-shadow: inset 0 0 0 3px color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 3px;
+    color: var(--main-color) !important;
 }
 
 /* Voice Connect OK To Main Color */
@@ -471,9 +473,11 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
     background-color: var(--hover-color) !important;
 }
 .ui-call-avatar-border.video.speaking {
-    -webkit-box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
     border-radius: 3px;
-    box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
 }
 
 /* Server Add/Create Button Relocation */
@@ -493,8 +497,10 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Video Chat Avatar Ring Color */
 
 .ui-call-avatar-border.video.selected:not(.speaking) {
-    -webkit-box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
-    box-shadow: inset 0 0 0 2px color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
 }
 
 /* Screenshare Icon */
@@ -568,9 +574,9 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Splash Change */
 
 html body:before {
-    content: "Thank you for using Pout's Theme!"; !important
+    content: "Thank you for using Pout's Theme!" !important;
     color: #fff; 
-    background: var(--main-color); !important
+    background: var(--main-color) !important;
 }
 
 /* Customized User Tags */
@@ -707,5 +713,3 @@ html body:before {
     border-radius: 1px;
     display: block;
 }
-
-/*----------------------------------------------------------------------*/
