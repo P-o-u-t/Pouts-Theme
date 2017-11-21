@@ -26,14 +26,14 @@
 
 
 # **Customizable Code/Fixes:**
-> Disjointed Guild Margin.
+Disjointed Guild Margin.
 ### **Fix**:
 > .app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}
 
-> Change Main & Hover Colour.
+Change Main & Hover Colour.
 ### **Fix:** 
 > :root { --main-color: #5d7a56 !important; --hover-color: #4b6345 !important; }
 
-> Change Wallpaper.
+Change Wallpaper.
 ### **Fix**:
 > #app-mount .app, #app-mount .callout-backdrop, #app-mount .userPopout-4pfA0d::before { background-image: url(http://i.4cdn.org/wg/1510447224448.jpg) !important; }
