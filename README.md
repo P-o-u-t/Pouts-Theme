@@ -1,4 +1,4 @@
-# **BIG TEXT**
+# **INFORMATION & DOWNLOADS:**
 
 ## [Download BetterDiscord](https://github.com/Jiiks/BetterDiscordApp/releases/download/0.2.82/BD0.2.82Windows.zip)
 
@@ -25,9 +25,15 @@
 ![](https://i.imgur.com/ja6hOQX.png)
 
 
-# **Some known issues:**
-> Guild Margin out of place.
+# **Customizable Code/Fixes:**
+> Disjointed Guild Margin.
 ### **Fix**:
-> ```/* Adjust Guild Margin */
+> .app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}
 
-.app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}```
+> Change Main & Hover Colour.
+### **Fix:** 
+> :root { --main-color: #5d7a56 !important; --hover-color: #4b6345 !important; }
+
+> Change Wallpaper.
+### **Fix**:
+> #app-mount .app, #app-mount .callout-backdrop, #app-mount .userPopout-4pfA0d::before { background-image: url(http://i.4cdn.org/wg/1510447224448.jpg) !important; }
