@@ -25,15 +25,16 @@
 ![](https://i.imgur.com/ja6hOQX.png)
 
 
-# **Customizable Code/Fixes:**
-Disjointed Guild Margin.
-### **Fix**:
+## **Customizable Code/Fixes:**
+
+# **Disjointed Guild Margin.**
+### **Code**:
 > .app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}
 
-Change Main & Hover Colour.
-### **Fix:** 
+# **Change Main & Hover Colour.**
+### **Code:** 
 > :root { --main-color: #5d7a56 !important; --hover-color: #4b6345 !important; }
 
-Change Wallpaper.
-### **Fix**:
+# **Change Wallpaper.**
+### **Code**:
 > #app-mount .app, #app-mount .callout-backdrop, #app-mount .userPopout-4pfA0d::before { background-image: url(http://i.4cdn.org/wg/1510447224448.jpg) !important; }
