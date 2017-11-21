@@ -230,6 +230,30 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
     background-color: hsla(240,6%,97%,.1);
 }
 
+/* Transparency Fix in DMs for Titlebar */
+
+#app-mount .chat.private [class*='titleWrapper-'] {
+    background: transparent !important;
+}
+#app-mount .chat.private [class*='titleWrapper-'] > div {
+    background: transparent !important;
+}
+
+/* Align Titlebar Properly */
+
+.theme-dark .title-qAcLxz {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background: transparent;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    user-select: none;
+}
+
 /* Adjust Guild Margin */
 
 .app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}
@@ -733,4 +757,3 @@ background-color: var(--main-color);}
     background-color: var(--main-color);
     text-align: left;
 }
-
