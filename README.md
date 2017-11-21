@@ -1,3 +1,5 @@
+# **BIG TEXT**
+
 ## [Download BetterDiscord](https://github.com/Jiiks/BetterDiscordApp/releases/download/0.2.82/BD0.2.82Windows.zip)
 
 > **Launch BetterDiscordWI.exe to install**
@@ -21,3 +23,11 @@
 > **Server View:**
 
 ![](https://i.imgur.com/ja6hOQX.png)
+
+
+# **Some known issues:**
+> Guild Margin out of place.
+### **Fix**:
+> ```/* Adjust Guild Margin */
+
+.app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}```
