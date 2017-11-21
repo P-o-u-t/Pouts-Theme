@@ -757,3 +757,14 @@ background-color: var(--main-color);}
     background-color: var(--main-color);
     text-align: left;
 }
+
+/* Transparency Titlebar Fix */
+
+#app-mount .chat.private [class*='titleWrapper-'] {
+    background: transparent !important;
+}
+#app-mount .chat.private [class*='titleWrapper-'] > div {
+    background: transparent !important;
+}
+
+
