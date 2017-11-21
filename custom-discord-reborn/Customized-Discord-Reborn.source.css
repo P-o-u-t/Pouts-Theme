@@ -766,5 +766,3 @@ background-color: var(--main-color);}
 #app-mount .chat.private [class*='titleWrapper-'] > div {
     background: transparent !important;
 }
-
-
