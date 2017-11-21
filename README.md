@@ -20,4 +20,4 @@
 
 * **Server View:**
 
-![](https://i.imgur.com/0eZYuqZ.png)
+![](https://i.imgur.com/ja6hOQX.png)
