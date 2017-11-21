@@ -14,7 +14,7 @@
 
  
 
-**Theme Preview:**
+#### **Theme Preview:**
 
 > **Friends View:**
 
