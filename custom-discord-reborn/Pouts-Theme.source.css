@@ -778,16 +778,13 @@ background-color: var(--main-color);}
 
 /* Change Friends Icon */
 
-.private-channels .channel.btn-friends a[href*='/channels/@me'] svg  g {
+.private-channels .channel.btn-friends svg  g {
     opacity: 0;
 }
-.private-channels .channel.btn-friends a[href*='/channels/@me'] svg {
-    background: url('https://i.imgur.com/qNjM3He.png') !important;
-    background-repeat: no-repeat;
-    background-color: rgba(18, 18, 19, 0);
-    background-size: cover;
-    opacity: 0.4
+#app-mount a[href*='/channels/@me'] svg {
+    background: url(http://svgshare.com/i/40Z.svg) center center no-repeat rgba(18, 18, 19, 0) !important;
 }
+
 
 /* Remove Border From Pin Icon */
 
