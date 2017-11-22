@@ -402,7 +402,13 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 
 /* Alternate Typing Indicator */
 
-.status.status-typing.status-online{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;}.status.status-typing.status-idle{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #faa61a!important;}.status.status-typing.status-dnd{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #f04747!important;}.status.status-typing.status-invisible{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #747f8d!important;}.status.status-typing.status-offline{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #282829!important;}.status.status-typing .spinner-item{height:2px;width:2px;border-radius:0px;}span.spinner{/*opacity:0!important;*/transform:translate(1px, 28px);height:1px;}
+.status.status-typing.status-online{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;}
+.status.status-typing.status-idle{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #faa61a!important;}
+.status.status-typing.status-dnd{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #f04747!important;}
+.status.status-typing.status-invisible{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #747f8d!important;}
+.status.status-typing.status-offline{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #282829!important;}
+.status.status-typing.status-streaming{width:30px!important;height:30px!important;background:transparent!important;margin:0px 0px 0px 0px;border:2px solid #747f8d!important;}
+.status.status-typing .spinner-item{height:2px;width:2px;border-radius:0px;}span.spinner{/*opacity:0!important;*/transform:translate(1px, 28px);height:1px;}
 
 /* Custom Direct Message Icon */
 
