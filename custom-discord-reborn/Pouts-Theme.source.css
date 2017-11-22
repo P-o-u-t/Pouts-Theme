@@ -839,3 +839,15 @@ svg[name*='Pin'] + [class*='iconBadge'] {
     opacity: 0.3;
     background-size: cover;
 }
+
+/* Fix Group DMs */
+
+.chat.private .channel-members {
+    padding-top: 50px;
+}
+
+/* Fix Overlay Issue on Server List */
+
+#app-mount .guilds-wrapper {
+    background-color: rgba(0,0,0,0.7) !important;
+}
