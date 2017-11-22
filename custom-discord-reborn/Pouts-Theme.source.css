@@ -890,3 +890,31 @@ div[class*="titleBar-"] div[class*='winButton-'] {
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+
+/* Close Button for Search Results in DM */
+
+#app-mount .search-results-wrap {
+    padding-top: 35px;
+}
+.chat.private [class*='titleWrapper-'] {
+    z-index: 9999;
+}
+#app-mount .popouts .popout[style*='top: 37'] {
+    top: 55px !important;
+}
+
+/* Titlebar Buttons Fix */
+
+#app-mount div[class*="titleBar-"] {
+    z-index: 3000 !important;
+}
+#app-mount .search-results-wrap {
+    padding-top: 35px;
+    background-color: rgba(0,0,0,.7) !important;
+}
+.chat.private [class*='titleWrapper-'] {
+    z-index: 1001 !important;
+}
+#app-mount .popouts .popout[style*='top: 37'] {
+    top: 55px !important;
+}
