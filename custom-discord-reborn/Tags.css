@@ -1,4 +1,4 @@
-/* Pout's Custom Pill */
+/* Pout's Pill */
 
 .message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 span.username-wrapper::before, .channel-members .member .avatar-small[style*="172218388880293888"] ~ .member-inner .member-username .member-username-inner::before {
     content: ".";
@@ -26,6 +26,36 @@
 }
 .message-group:not(.compact) .avatar-large[style*="310719627292573697"] ~ .comment .message h2 .timestamp {
     margin-left: 29px;
+}
+
+/* Seizetsu's Skull */
+
+.message-group:not(.compact) .avatar-large[style*="231827402102276096"] ~ .comment .message h2 span.username-wrapper::before, .channel-members .member .avatar-small[style*="172218388880293888"] ~ .member-inner .member-username .member-username-inner::before {
+    content: ".";
+    background-image: url(https://cdn.discordapp.com/attachments/378122957769408513/382821216131481601/iconHelp_HowToWin_killers.png);
+    background-color: transparent;
+    background-size: 30px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width: 299px;
+    color: transparent;
+    border-radius: 3px;
+    left: 140px;
+    right: 100px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0px 4px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    line-height: 30px;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    text-shadow: 0px 1px 3px #000;
+    position: absolute;
+    margin-top: -6px;
+}
+.message-group:not(.compact) .avatar-large[style*="231827402102276096"] ~ .comment .message h2 .timestamp {
+    margin-left: 25px;
 }
 
 /* Customized User Tags */
