@@ -851,3 +851,15 @@ svg[name*='Pin'] + [class*='iconBadge'] {
 #app-mount .guilds-wrapper {
     background-color: rgba(0,0,0,0.7) !important;
 }
+
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child {
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+
+/* Fix Alignment on Titlebar and Server List */
+
+#app-mount > [class*="platform-"] .scroller-wrap .guilds.scroller .guild:first-child {
+    margin-top: 0px !important;
+    height: 48px;
+}
+
