@@ -782,9 +782,8 @@ background-color: var(--main-color);}
     opacity: 0;
 }
 #app-mount a[href*='/channels/@me'] svg {
-    background: url(http://svgshare.com/i/40Z.svg) center center no-repeat rgba(18, 18, 19, 0) !important;
+    background: url(http://svgshare.com/i/405.svg) center center no-repeat rgba(18, 18, 19, 0) !important;
 }
-
 
 /* Remove Border From Pin Icon */
 
