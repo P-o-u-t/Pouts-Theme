@@ -4,7 +4,7 @@
 
 > **Launch BetterDiscordWI.exe to install**
 
-## [Download Theme](https://github.com/P-o-u-t/Pouts-Theme/releases/download/theme/Theme.zip)
+## [Download Theme](https://github.com/P-o-u-t/Pouts-Theme/releases/download/theme/PoutsTheme.zip)
 
 > **Themes go into %AppData%\BetterDiscord\themes**
 
