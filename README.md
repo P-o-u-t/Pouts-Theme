@@ -31,6 +31,11 @@
 #### **Code**:
 > .app .guilds .guild:first-child {margin-top: 3px!important;padding-bottom:0px !important}
 
+
+## **Disjointed Search Margin.**
+#### **Code**:
+> [class*="flexChild-"] > [class*="container-"] > [class*="header"]:not(.header-toolbar) {border-bottom: 2px solid var(--main-color);height: 47px;}
+
 ## **Change Main & Hover Colour.**
 #### **Code:** 
 > :root { --main-color: #5d7a56 !important; --hover-color: #4b6345 !important; }
