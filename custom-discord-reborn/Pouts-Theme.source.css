@@ -914,3 +914,63 @@ div[class*="titleBar-"] div[class*='winButton-'] {
 #app-mount .popouts .popout[style*='top: 37'] {
     top: 55px !important;
 }
+
+/* Login Icon */
+
+.auth-inner .auth-logo {
+    background: url(https://i.imgur.com/A6DtmmK.png);
+    background-size: 168px 168px;
+    height: 168px;
+    width: 168px;
+}
+
+/* Login Title */
+
+.auth-inner .auth-name {
+    background: url(https://i.imgur.com/YrfNhvf.png) 50% no-repeat;
+    height: 26px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+    position: relative;
+}
+
+/* Login Transparency */
+
+.auth-inner .auth-brand {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background: rgba(40,43,48,.75);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+/* Login Color 1 */
+
+form.deprecated.auth-form h1 {
+    color: #81aa77;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Login Color 2 */
+
+.form.deprecated .btn-primary {
+    border-radius: 3px;
+    color: #000;
+}
+
+/* Login Color 3 */
+
+form.deprecated.auth-form footer a {
+    color: #81aa77;
+    text-decoration: none;
+}
