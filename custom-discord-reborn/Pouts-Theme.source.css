@@ -974,3 +974,42 @@ form.deprecated.auth-form footer a {
     color: #81aa77;
     text-decoration: none;
 }
+
+/* Login Wallpaper */
+
+#app-mount .auth-wrap-background.visible > .auth-wrap-background.visible > .auth-background[style],
+#app-mount .auth-copyright + .auth-center .auth-blur .auth-wrap-background.visible .auth-background[style] {
+    background-image: url('https://wallpaperscraft.com/image/dark_light_relaxing_72870_1920x1080.jpg') !important;
+}
+
+/* Login/Register Highlight Fix */
+
+form.deprecated.auth-form footer a:hover {
+    border-bottom: 2px solid var(--hover-color);
+    padding-bottom: 5px;
+}
+
+/* Login Transparency */
+
+.auth-inner .auth-brand {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+form.deprecated.auth-form {
+    background: none;
+    background: transparent;
+    border-radius: 0;
+    padding: 30px;
+    width: 340px;
+}
