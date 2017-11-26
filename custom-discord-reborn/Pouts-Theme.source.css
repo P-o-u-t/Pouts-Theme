@@ -1013,3 +1013,10 @@ form.deprecated.auth-form {
     padding: 30px;
     width: 340px;
 }
+
+/* Edit Message Border Color */
+
+.theme-dark .edit-message .inner-3if5cm {
+    border: 2px solid;
+    color: var(--main-color) !important; 
+}
