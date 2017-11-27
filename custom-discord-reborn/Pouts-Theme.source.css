@@ -922,12 +922,12 @@ div[class*="titleBar-"] div[class*='winButton-'] {
     top: 55px !important;
 }
 
-/* Login Icon */
+/* Login Icon */    
 
 .auth-inner .auth-logo {
-    background: url(https://i.imgur.com/fLlsdFZ.png);
-    background-size: 168px 190px;
-    height: 190px;
+    background: url(https://i.imgur.com/NfdJY2I.png);
+    background-size: 168px 168px;
+    height: 168px;
     width: 168px;
 }
 
@@ -1064,3 +1064,5 @@ form.deprecated.auth-form {
     background: rgba(0, 0, 0, 0.8) !important;
     border-color: rgba(0, 0, 0, 0.8) !important;
 }
+
+
