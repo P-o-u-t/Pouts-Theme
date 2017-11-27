@@ -28,8 +28,12 @@
 .card-3cnrFh{border-radius:50%!important;}
 .ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
  border-radius: 50% !important;
+}
  #user-profile-modal .guilds .guild .avatar-large:empty {
  border-radius: 50px!important;
+}
+#user-profile-modal .guilds .guild .avatar-large {
+    border-radius: 50px !important;
 }
 
 /* Revert Account Details */
