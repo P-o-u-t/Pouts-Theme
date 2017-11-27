@@ -1065,4 +1065,8 @@ form.deprecated.auth-form {
     border-color: rgba(0, 0, 0, 0.8) !important;
 }
 
+/* AKA Main Color */
 
+.aka-2Ba14Z {
+    background: var(--main-color);
+}
