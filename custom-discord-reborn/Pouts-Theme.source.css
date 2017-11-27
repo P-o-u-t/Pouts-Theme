@@ -1070,3 +1070,80 @@ form.deprecated.auth-form {
 .aka-2Ba14Z {
     background: var(--main-color);
 }
+
+/* Connection Page */
+
+.container-2oOGIt {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-transform: translateZ(0);
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    contain: layout;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-rendering: optimizeLegibility;
+    top: 0;
+    transform: translateZ(0);
+    z-index: 3000;
+}
+
+.contentBase-2lvI5t {
+    color: var(--hover-color);
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.quote-3NlLs0 {
+    color: var(--main-color);
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.attribution-3t1Ekl a {
+    color: var (--hover-color);
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: opacity .5s,color .5s;
+    color: var (--main-color);
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity .5s,color .5s;
+}
+
+.container-2oOGIt video.ready-2UbIdM {
+    visibility: hidden;
+    background-image: url('https://i.imgur.com/NfdJY2I.png');
+}
+
+.problemsText-3RO4MF {
+    color: #72767d;
+    font-family: Whitney;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.twitterLink-235wvR {
+    color: var(--hover-color);
+}
+
+.statusLink-2eJVdK {
+    margin-left: 20px;
+    color: var(--hover-color);
+}
