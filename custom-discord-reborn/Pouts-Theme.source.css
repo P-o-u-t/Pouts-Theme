@@ -1021,3 +1021,40 @@ form.deprecated.auth-form {
     border: 2px solid;
     color: var(--main-color) !important; 
 }
+
+/* Dropdown Boxes*/
+
+.theme-dark.context-menu .item:hover {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: var(--hover-color);
+}
+
+.theme-dark.context-menu .item {
+    color: var(--main-color);
+    background-color: transparent;
+}
+
+.theme-dark.context-menu .item-group {
+    border-color: #000;
+}
+
+.context-menu .item-group:not(:first-child):not(:empty) {
+    border-top-width: 0px;
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: url() 155px 50% no-repeat #18181b;
+}
+
+.theme-dark.context-menu {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark.context-menu .context-menu {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(0, 0, 0, 0.8) !important;
+}
