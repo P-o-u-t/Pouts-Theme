@@ -1277,6 +1277,20 @@ a {
     padding-bottom: 0px;
 }
 
+.topSectionStreaming-3rIBIm {
+    background: rgba(0,0,0,0.65)!important;
+}
+
+.buttonWhiteOutlined-2KwPTg {
+    border-color: transparent;
+    color: #fff;
+    background-color: var(--main-color) !important;
+}
+
+.buttonWhiteOutlinedDefault-3gEfoF:hover {
+    border-color: var(--hover-color) !important;
+}
+
 /* Friends Table Full Height */
 
 #friends .friends-table .friends-table-body {
@@ -1312,5 +1326,3 @@ a {
     border-color: var(--main-color);
     color: hsla(0,0%,100%,.7);
 }
-
-
