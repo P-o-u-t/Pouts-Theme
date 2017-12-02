@@ -1233,3 +1233,7 @@ a {
     border-bottom: 1px solid var(--hover-color);
     padding-left: 20px;
 }
+
+/* Friend Tab Fix */
+
+#friends .friends-table .friends-table-body > div{display:flex;flex-flow:row wrap;justify-content:center;}
