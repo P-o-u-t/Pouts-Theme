@@ -1234,6 +1234,60 @@ a {
     padding-left: 20px;
 }
 
+.theme-dark .header-1qeJfQ {
+    border-bottom-color: var(--main-color) !important;
+    background-color: rgba(0, 0, 0, 0.701961);
+}
+
+.theme-dark .partyBottomBorder-EvU-Qp {
+    background-color: var(--main-color) !important;
+}
+
+.theme-dark .sectionLine-3fsQAf {
+    background-color: var(--main-color) !important;
+}
+
+#friends .friends-table .friends-table-body {
+    padding: 0;
+    margin: 0px 0 0;
+}
+
+#friends .friends-table {
+    padding-top: 0px;
+}
+
+#friends .friends-table .friends-table-body > div {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-bottom: 0px;
+}
+
+/* Friends Table Full Height */
+
+#friends .friends-table .friends-table-body {
+    height: calc(100% - 100px);
+}
+
+/* Activity Screen Full Height */
+
+.feed-2fHzeU {
+    height: calc(100% - 100px) !important;
+}
+
+/* Remake Bottom Bar Friends Tab */
+
+.theme-dark .friends-table::after {
+    content: "";
+    background: rgba(0,0,0,0.15)!important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid rgba(0,0,0,0.3)!important;
+}
+
 /* Friend Tab Fix */
 
 #friends .friends-table .friends-table-body > div{display:flex;flex-flow:row wrap;justify-content:center;}
+
