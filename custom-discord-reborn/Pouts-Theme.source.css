@@ -1326,3 +1326,82 @@ a {
     border-color: var(--main-color);
     color: hsla(0,0%,100%,.7);
 }
+
+
+/* Full Width Bottom Bar Friends/Activity Feed */
+
+#app-mount .chat.private .content form > div {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+}
+
+#app-mount .private-channels .channel .channel-activity .content form > div {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+}
+.theme-dark .activityFeed-HeiGwL::after {
+    background: rgba(0, 0, 0, 0.2)!important;
+    border-top: 2px solid rgba(0,0,0,0.3) !important;
+    width: 100%;
+}
+
+.theme-dark .friends-table::after {
+    content: "";
+    background: rgba(0,0,0,0.15)!important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid rgba(0,0,0,0.3)!important;
+    width: 100%;
+}
+
+/* Line Fix */
+
+#app-mount .chat.private .content form > div {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+}
+
+#app-mount .private-channels .channel .channel-activity .content form > div {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+}
+.theme-dark .activityFeed-HeiGwL::after {
+    background: rgba(0, 0, 0, 0.2)!important;
+    border-top: 2px solid var(--main-color) !important;
+    width: 100%;
+    opacity: 0.6
+}
+
+.theme-dark .friends-table::after {
+    content: "";
+    background: rgba(0,0,0,0.15)!important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid var(--main-color) !important;
+    width: 100%;
+    opacity: 0.6
+}
+
+.theme-dark .inner-3if5cm {
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 0.6;
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: rgba(0, 0, 0, 0.2);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - 20px) !important;
+    margin-left: 0px;
+    border-top: 2px solid var(--main-color) !important;    
+}
