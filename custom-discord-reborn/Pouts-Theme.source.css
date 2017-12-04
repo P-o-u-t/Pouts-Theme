@@ -38,8 +38,7 @@
 
 /* Revert Account Details */
 
-.channel-members::after, #friends .friends-table .friends-table-body::after{display:none !important;}
-[class*="scroller-"].channel-members { height: 100%!important;}
+[class*="scroller-"].channel-members { height: 93%!important;}
 #app-mount .accountDetails-15i-_e { position:unset !important; min-width:unset !important; bottom:0px !important; }
 #app-mount .accountDetails-15i-_e .username { margin-left: unset !important; border: none !important; font-family:Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important; font-size:15px !important; font-weight:400 !important; color:white !important; text-align:unset !important; height:30px!important; line-height:10px!important; }
 .accountDetails-15i-_e .discriminator {display: inline block !important; font-size: 12px !important; position: unset !important;}
