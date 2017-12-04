@@ -1405,3 +1405,12 @@ a {
     margin-left: 0px;
     border-top: 2px solid var(--main-color) !important;    
 }
+
+/* CustomCSS Line Number to Main Color */
+
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #1a1a1a;
+    color: var(--main-color) !important;
+}
