@@ -1476,3 +1476,14 @@ a {
 .feed-2fHzeU {
     height: calc(100% - 20px) !important;
 }
+
+/* AutoComplete Box Main Color Edges */
+
+.theme-dark .chat [class*="autocomplete-"] {
+    box-shadow: 0px 0px 6px 0px transparent;
+    border-radius: 0px !important;
+    margin-bottom: 1px !important;
+    border-left: 2px solid var(--main-color) !important;
+    border-top: 2px solid var(--main-color) !important;
+    border-right: 2px solid var(--main-color) !important;
+}
