@@ -1487,3 +1487,16 @@ a {
     border-top: 2px solid var(--main-color) !important;
     border-right: 2px solid var(--main-color) !important;
 }
+
+/* Settings Menu Fix */
+
+.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
+
+/* Re-Align Attachment Button */
+
+.chat.private .attachButton-Di6YUh {
+    margin: 10px 0px 10px -20px;
+}
