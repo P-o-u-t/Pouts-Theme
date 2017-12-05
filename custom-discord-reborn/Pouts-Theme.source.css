@@ -36,12 +36,6 @@
     border-radius: 50px !important;
 }
 
-/* Revert Account Details */
-
-#app-mount .accountDetails-15i-_e { position:unset !important; min-width:unset !important; bottom:0px !important; }
-#app-mount .accountDetails-15i-_e .username { margin-left: unset !important; border: none !important; font-family:Whitney,Helvetica Neue,Helvetica,Arial,sans-serif !important; font-size:15px !important; font-weight:400 !important; color:white !important; text-align:unset !important; height:30px!important; line-height:10px!important; }
-.accountDetails-15i-_e .discriminator {display: inline block !important; font-size: 12px !important; position: unset !important;}
-
 /* Make Channel Categories Match Role Categories */
 
 .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,
