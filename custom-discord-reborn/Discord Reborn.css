@@ -13,7 +13,7 @@
 .theme-dark .layer,
 .theme-dark .layers,
 .theme-dark .content,
-.theme-dark .messages-wrapper .message-group,
+.theme-dark .messages-wrapper .message-group,	
 .theme-dark #friends,
 .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"]{
     background:transparent !important;
@@ -59,7 +59,7 @@
 
 .theme-dark .container-iksrDt{height: 71px;background: rgba(0, 0, 0, 0.2);border-right: 0px solid transparent !important;width: calc(100% - 20px) !important;margin-left: 0px;border-top: 2px solid rgba(0, 0, 0, 0.3) !important;}
 
-.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.76);left: 0px;color: transparent !important;border-top: unset !important}
+.theme-dark .channel-members::after{background: rgba(0, 0, 0, 0.76);left: 0px;color: transparent !important;}
 
 .theme-dark .chat>.content .messages .message-group .markup, .theme-dark .chat>.title-wrap>.topic{color: #dad9d9;font-weight: 500;}
 
