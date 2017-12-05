@@ -1359,7 +1359,36 @@ a {
     background: rgba(0, 0, 0, 0.2);
 }
 
-/* Account Details */
+/* Chat Bar Total Makeover */
+
+#app-mount .accountDetails-15i-_e .username {
+    color: transparent !important;
+}
+
+.accountDetails-15i-_e .username {
+    background-color: transparent !important;
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 1;
+}
+
+.theme-dark .channel-members::after {
+    background: rgba(0, 0, 0, 0.76);
+    left: 0px;
+    color: transparent !important;
+}
+
+.theme-dark .friends-table::after {
+    content: "";
+    background: solid rgba(0, 0, 0, 0.2);
+    width: 1400px;
+    opacity: 0.6;
+
+}
+
+.theme-dark #friends .friends-table .friends-table-body::after {
+    content: "";
+    background: solid rgba(0, 0, 0, 0.2);
+}
 
 .accountDetails-15i-_e .discriminator {
     visibility: hidden;
@@ -1367,4 +1396,83 @@ a {
 
 .accountDetails-15i-_e + div div {
     margin-left: 23px !important;
+}
+
+.theme-dark .container-iksrDt {
+    height: 71px;
+    background: rgba(0, 0, 0, 0.2);
+    border-right: 0px solid transparent !important;
+    width: calc(100% - 20px) !important;
+    margin-left: 0px;
+    border-top: 2px solid var(--main-color) !important;
+}
+
+.theme-dark .inner-3if5cm {
+    border-left:  solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid var(--main-color) !important;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.private-channels ~ .container-iksrDt .accountDetails-15i-_e .username {
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 0.6;
+    left: -20px;
+    visibility: hidden;
+}
+
+#app-mount .accountDetails-15i-_e .username {
+    color: transparent;
+}
+
+
+.theme-dark .chat form {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 93px;
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 0.6;
+}
+
+.attachButton-Di6YUh {
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition: opacity .1s ease,-webkit-transform .1s ease;
+    cursor: pointer;
+    height: 24px;
+    margin: 10px 0px 0px 0px;
+}
+    
+    
+.theme-dark .friends-table::after {
+    content: "";
+    background: rgba(0,0,0,0)!important;
+    width: 1400px;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 2px solid var(--main-color) !important;
+    visibility: hidden;
+}
+
+.theme-dark .activityFeed-HeiGwL::after {
+    background: rgba(0, 0, 0, 0.2)!important;
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.theme-dark #friends .friends-table .friends-table-body::after {
+    visibility: hidden;
+}
+
+/* Friends Table Full Height */
+
+#friends .friends-table .friends-table-body {
+    height: calc(100% - 20px);
+}
+
+/* Activity Screen Full Height */
+
+.feed-2fHzeU {
+    height: calc(100% - 20px) !important;
 }
