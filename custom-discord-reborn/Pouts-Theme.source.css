@@ -1350,8 +1350,6 @@ a {
     content: "";
     background: rgba(0, 0, 0, 0.2);
     width: 1400px;
-    opacity: 0.6;
-
 }
 
 .theme-dark #friends .friends-table .friends-table-body::after {
@@ -1381,7 +1379,6 @@ a {
     content: "";
     background: solid rgba(0, 0, 0, 0.2);
     width: 1400px;
-    opacity: 0.6;
 
 }
 
@@ -1412,12 +1409,10 @@ a {
     border-right: 0px solid transparent;
     border-top: 0px solid var(--main-color) !important;
     left: 0px;
-    opacity: 0.6;
 }
 
 .private-channels ~ .container-iksrDt .accountDetails-15i-_e .username {
     border-top: 2px solid var(--main-color) !important;
-    opacity: 0.6;
     left: -20px;
     visibility: hidden;
 }
@@ -1431,7 +1426,6 @@ a {
     background-color: rgba(0, 0, 0, 0.2);
     height: 93px;
     border-top: 2px solid var(--main-color) !important;
-    opacity: 0.6;
 }
 
 .attachButton-Di6YUh {
@@ -1457,7 +1451,6 @@ a {
 .theme-dark .activityFeed-HeiGwL::after {
     background: rgba(0, 0, 0, 0.2)!important;
     border-top: 2px solid var(--main-color) !important;
-    opacity: 0.6;
     visibility: hidden;
 }
 
