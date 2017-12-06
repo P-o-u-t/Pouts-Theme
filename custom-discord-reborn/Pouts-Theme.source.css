@@ -22,19 +22,16 @@
 
 /* Circular Avatars */
 
-[class*="avatar-"], .status, [class*="avatarStatus"], .image-EVRGPw{border-radius: 50% !important;}
-.guilds [class*="avatar-"]{border-radius: 0 !important;}
-.mask-2vyqAW{border-radius: 50% !important;}
+[class*="avatar-"],.status,[class*="avatarStatus"],.image-EVRGPw{border-radius:50% !important;}
+.guilds [class*="avatar-"]{border-radius:50px !important;}
+.mask-2vyqAW{border-radius:50% !important;}
 .card-3cnrFh{border-radius:50%!important;}
-.ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
- border-radius: 50% !important;
-}
- #user-profile-modal .guilds .guild .avatar-large:empty {
- border-radius: 50px!important;
-}
-#user-profile-modal .guilds .guild .avatar-large {
-    border-radius: 50px !important;
-}
+.guild div.avatar-large { border-radius: 50px !important;}
+#user-profile-modal .guilds .guild .avatar-large:empty { border-radius: 50px!important;}
+ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {border-radius:50%!important;}  
+.status-3jUEha {border-radius: 50% !important;}
+.badge {border-radius: 50px!important;}
+.guild-inner > .avatar-small {border-radius:50px !important;}
 
 /* Make Channel Categories Match Role Categories */
 
@@ -1359,6 +1356,11 @@ a {
 
 /* Chat Bar Total Makeover */
 
+.theme-dark .container-iksrDt {
+    color: var(--main-color) !important;
+    opacity: 1;
+}
+
 #app-mount .accountDetails-15i-_e .username {
     color: transparent !important;
 }
@@ -1492,4 +1494,17 @@ a {
 
 .chat.private .attachButton-Di6YUh {
     margin: 10px 0px 10px -20px;
+}
+
+/* Profile Roles Update */
+
+.role-3rahR_ {
+    -webkit-box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 11px;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
