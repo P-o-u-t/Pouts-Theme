@@ -1257,3 +1257,44 @@ a {
     filter: blur(0px)!important;
     border-radius: 0px!important;
 }
+
+/* 2px Chat Bar to Main Color */
+
+.theme-dark .channel-members::after {
+    border-top: 2px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* Temporary Chat Bar Patch */
+
+.theme-dark .channel-members::after {
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 1;
+}
+
+.theme-dark .inner-3if5cm {
+    border-top: px solid var(--main-color) !important;
+    opacity: 1;
+}  
+
+.theme-dark .container-iksrDt {
+    border-top: 2px solid var(--main-color) !important;
+    opacity: 1;
+}
+
+.theme-dark .container-RYiLUQ, .theme-dark .layer, .theme-dark .layers, .theme-dark .content, .theme-dark .messages-wrapper .message-group, .theme-dark #friends, .theme-dark .popout.popout-bottom:not(.no-arrow)[style*="z-index: 1000; overflow: hidden; visibility: visible;"] {
+    background: transparent !important;
+}
+
+.chat.private .theme-dark .inner-3if5cm {
+    margin-left: -15px !important;
+}
+
+.theme-dark .chat form {
+    border-top: 2px solid var(--main-color) !important;
+    height: 93px;
+}
+
+.textArea-20yzAH {
+    max-height: 35px;
+}
