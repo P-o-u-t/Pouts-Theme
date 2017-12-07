@@ -1231,10 +1231,6 @@ a {
     visibility: hidden;
 }
 
-.theme-dark .channel-members::after {
-    border-top: 2px solid var(--main-color) !important;
-}
-
 .buttonWhiteOutlined-2KwPTg {
     border-color: transparent;
     color: var(--main-color) !important;
