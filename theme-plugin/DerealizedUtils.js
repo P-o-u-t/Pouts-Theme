@@ -1,4 +1,4 @@
-const derealizedUtils = {}
+let derealizedUtils = {}
 
 const cssURL = `https://rawgit.com/P-o-u-t/Pouts-Theme/master/custom-discord-reborn/Pouts-Theme.source.css`
 
