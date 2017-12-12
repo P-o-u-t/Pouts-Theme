@@ -10,3 +10,7 @@ derealizedUtils.addCSS = () => {
         link.href = cssURL
         head.appendChild(link)
 }
+derealizedUtils.removeCSS = () => {
+        let scriptTag = document.querySelectorAll(`link[href='${cssURL}']`)[0]
+        head.removeChild(scriptTag)
+}
