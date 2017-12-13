@@ -9,7 +9,7 @@ derealized.end = () => {
     removeCSS()
 }
 
-addCSS = () => {
+let addCSS = () => {
     let head = document.getElementsByTagName('head')[0]
     let link = document.createElement('link')
     link.type = 'text/css'
@@ -17,7 +17,7 @@ addCSS = () => {
     link.href = cssURL
     head.appendChild(link)
 }
-removeCSS = () => {
+let removeCSS = () => {
     let cssLink = document.querySelectorAll(`link[href='${cssURL}']`)[0]
     head.removeChild(cssLink)
 }
