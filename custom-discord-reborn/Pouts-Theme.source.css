@@ -1527,3 +1527,157 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
     background-color: hsla(216,4%,74%,.1) !important;
 }
 
+/* Fixed User Settings - Pout */
+
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+    padding: 10px 100px 0px 150px !important;
+    width: 420px !important;
+}
+
+#bd-settings-sidebar .ui-tab-bar-item {
+    margin-bottom: 5px !important;
+    padding: 5px 5px 5px 10px !important;
+    position: relative !important;
+    font-size: 15px !important;
+    line-height: 21px !important;
+}
+
+.side-2nYO0F .item-3879bf {
+    border-radius: 5px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    margin-top: 5px !important;
+}
+
+.theme-dark .attachButtonPlus-2l1NEU {
+    margin-left: 15px !important;
+}
+
+/* Attach Button Fix */
+
+.private.chat .attachButton-Di6YUh {
+    margin-left: -10px !important;
+}
+
+/* User Popouts Fix */
+
+.ui-standard-sidebar-view .sidebar-region,
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller{
+	justify-content: flex-end!important;
+}
+
+.userPopout-4pfA0d,
+.userPopout-4pfA0d::before{border-radius: 10px!important;}
+
+.userPopout-4pfA0d .headerPlaying-2eYqm9{border-radius: 10px 10px 0 0!important;}
+.userPopout-4pfA0d .footer-2J5zqP{border-radius: 0 0 10px 10px!important;}
+
+[class*="userPopout-"] .avatar-1BXaQj{
+	position: relative;
+}
+
+
+[class*="userPopout-"] .avatar-1BXaQj > div{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+[class*="userPopout-"] .avatar-1BXaQj > .avatarStatus-1g8f0K{
+	border-width: 4px!important;
+	border-style: solid!important;
+	box-sizing: border-box;
+}
+
+
+[class*="userPopout-"] .statusOnline-1Mp2_H{
+	border-color: var(--main-color)!important;
+	box-shadow: none!important;
+}
+
+/* Close Button in User Settings */
+
+.ui-standard-sidebar-view .content-region-scroller .tools{
+	min-width: 40px;
+	min-height: 70px;
+	padding: 0;
+	margin: 20px 0 0 0;
+	position: relative;
+	flex: 0;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.ui-standard-sidebar-view .content-region-scroller .tools > div{position: relative;}
+.ui-standard-sidebar-view .content-region-scroller .tools .btn-close{flex: 0;}
+.ui-standard-sidebar-view .content-region-scroller .tools .esc-text{margin: 10px 0 0 0;}
+
+/* User Settings Icons */
+
+.layer[layer-id="user-settings"] :-webkit-any(.item-3879bf:nth-child(18),.item-3879bf:nth-child(19),.item-3879bf:nth-child(20))::before{
+	content: ""!important;
+	width: 24px!important;
+	height: 24px!important;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* User Settings icons: Streamer */
+
+.layer[layer-id="user-settings"] .item-3879bf:nth-child(18)::before{
+	background-image: url("https://cdn.discordapp.com/attachments/226489209488277504/391467499729846275/twitch.png")!important;
+}
+
+/* User Settings icons: Language */
+
+.layer[layer-id="user-settings"] .item-3879bf:nth-child(19)::before{
+	background-image: url("https://media.discordapp.net/attachments/226489209488277504/391467475025395712/language.png")!important;
+}
+
+/* User Settings icons: Windows Settings */
+
+.layer[layer-id="user-settings"] .item-3879bf:nth-child(20)::before{
+	background-image: url("https://cdn.discordapp.com/attachments/226489209488277504/391467443891208192/Windows_logo_-_2012.png")!important;
+}
+
+
+/* Titlebar Fix & CSS Editor When Detatched */
+
+.bd-detached-editor .chat .title-qAcLxz > :last-child,
+.bd-detached-editor .headerBar-cxbhPD > :last-child{margin-right: 0!important;}
+
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+
+/* Status Switcher */
+.popouts .status-picker.popout-menu{
+	border-color: var(--main-color)!important;
+	animation: StatusSlide .3s ease-in-out forwards 1, statusSwitchFade 500ms forwards 1;
+}
+
+@keyframes statusSwitchFade{
+	from{
+		opacity: 0;
+		transform: scale(0);
+	}
+	to{
+		opacity: 1;
+		transform: scale(1);
+	}
+
+}
+
+
+/* Server List */
+.guilds-wrapper .guilds .guild .guild-inner{
+	border-radius: 50%!important;
+	overflow: hidden;
+}
