@@ -1681,3 +1681,12 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 	border-radius: 50%!important;
 	overflow: hidden;
 }
+
+/* User Settings Pout Icon */
+
+.side-2nYO0F .header-1-f9X5:first-child {
+    content:"" !important;
+    background-image: url("https://i.imgur.com/B2pLlgM.png") !important;
+    height: 97px;
+    padding-top: 77px !important;
+}
