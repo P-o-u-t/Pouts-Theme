@@ -1585,7 +1585,7 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 }
 
 [class*="userPopout-"] .avatar-1BXaQj > .avatarStatus-1g8f0K{
-	border-width: 4px!important;
+	border-width: 2px!important;
 	border-style: solid!important;
 	box-sizing: border-box;
 }
