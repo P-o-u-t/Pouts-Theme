@@ -1535,7 +1535,7 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 }
 
 #bd-settings-sidebar .ui-tab-bar-item {
-    margin-bottom: 5px !important;
+    margin-bottom: 4.2px !important;
     padding: 5px 5px 5px 10px !important;
     position: relative !important;
     font-size: 15px !important;
@@ -1543,11 +1543,11 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 }
 
 .side-2nYO0F .item-3879bf {
-    border-radius: 5px !important;
-    margin-bottom: 5px !important;
-    padding-bottom: 5px !important;
-    padding-top: 5px !important;
-    margin-top: 5px !important;
+    border-radius: 4.2px !important;
+    margin-bottom: 4.2px !important;
+    padding-bottom: 4.2px !important;
+    padding-top: 4.2px !important;
+    margin-top: 4.2px !important;
 }
 
 .theme-dark .attachButtonPlus-2l1NEU {
@@ -1683,6 +1683,15 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 }
 
 /* User Settings Pout Icon */
+
+.side-2nYO0F .header-1-f9X5:first-child {
+    content:"" !important;
+    background-image: url("https://i.imgur.com/w32jpkY.png") !important;
+    height: 80px;
+    padding-top: 60px !important;
+}
+
+/* User Settings Icon */
 
 .side-2nYO0F .header-1-f9X5:first-child {
     content:"" !important;
