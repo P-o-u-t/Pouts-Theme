@@ -1797,3 +1797,73 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     width: 6px !important;
     border: none !important;
 }
+
+/* Member List */
+
+.channel-members > .member:hover,
+.channel-members > .member.popout-open {
+    background: var(--main-color) !important;
+}
+.channel-members > .member-username-inner {
+    overflow: visible;
+}
+/* Friends DMs List */
+
+.private-channels > div:not(.search-bar) .channel.private {
+    margin-top: px;
+}
+.private-channels > div:not(.search-bar) .channel.private a {
+    margin: 0;
+    border-radius: 0;
+    height: 42px;
+}
+.private-channels > div:not(.search-bar) .channel.private:hover a {
+    background: rgba(0,0,0,0.3) !important;
+}
+.private-channels > div:not(.search-bar) .channel.private.selected {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+.private-channels > div:not(.search-bar) .channel.private.selected a {
+    background: rgba(0,0,0,0.3) !important;
+}
+/* Server Channels */ 
+
+.guilds-wrapper + div div[class*='channels-'] > div:first-child:not(.private-channels) > div[class*='scrollerWrap-'] div[class*='container-'] > div:not(:first-child) > div:hover > div,
+.guilds-wrapper + div div[class*='channels-'] > div:first-child:not(.private-channels) > div[class*='scrollerWrap-'] div[class*='container-'] > div > div > div[class*='SelectedText-'] {
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+
+/* User Settings */
+
+.layers .layer ~ .layer > div:first-child {
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto !important;
+}
+.layers .layer ~ .layer > div:first-child .sidebar-region {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.layers .layer ~ .layer > div:first-child .content-region {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.layers .layer ~ .layer div[class*='valueChecked'],
+.barFill-18ABna,
+#bd-settingspane-container .ui-switch.checked {
+    background-color: var(--main-color) !important;
+}
+
+/* Layout */
+.private-channels .channel.private > a {
+    padding-left: 10px;
+}
+.guilds-wrapper + div div[class*='channels-'] > div[class*='container-']:last-child > div[class*='accountDetails-'] {
+    height: 0;
+    transition: all .2s linear;
+    font-family: var(--font-family-accent);
+}
+.guilds-wrapper + div div[class*='channels-'] > div[class*='container-']:last-child > div[class*='avatar-']:first-child:hover + div[class*='accountDetails-'] {
+    height: 30px;
+}
