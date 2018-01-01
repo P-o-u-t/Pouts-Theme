@@ -1694,10 +1694,11 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
 /* User Settings Pout Icon */
 
 .side-2nYO0F .header-1-f9X5:first-child {
-    content:"" !important;
-    background-image: url("https://i.imgur.com/w32jpkY.png") !important;
+    content: "" !important;
+    background-image: url(https://i.imgur.com/w32jpkY.png) !important;
     height: 80px;
     padding-top: 60px !important;
+    max-width: 175px !important;
 }
 
 /*Fix Role Spacing*/
