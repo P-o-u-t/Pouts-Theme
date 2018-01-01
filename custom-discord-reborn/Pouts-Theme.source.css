@@ -36,6 +36,10 @@ ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {border-rad
 .status-3jUEha {border-radius: 50% !important;}
 .badge {border-radius: 50px!important;}
 .guild-inner > .avatar-small {border-radius:50px !important;}
+.ui-call-avatar.video:not(.disabled){border-radius: 50% !important;}
+.statusInvisible-2ci18Q, .statusOffline-jZXr_u .statusOnline-1Mp2_H, .status-3jUEha {background-color: transparent;visibility: hidden !important;}
+[class*="avatar-"], .image-EVRGPw {box-shadow: 0px 0px 0px transparent !important;}
+[class*="userPopout-"] .avatar-1BXaQj > .avatarStatus-1g8f0K {box-sizing: border-box;border-width: 0px !important;border-style: solid !important;visibility: hidden !important;}
 
 /* Make Channel Categories Match Role Categories */
 
@@ -1696,45 +1700,6 @@ pointer-events: none; to .chat .content .message-group .comment .markup.spoiler:
     padding-top: 60px !important;
 }
 
-/* Typing Indicator */
-
-.status.status-typing {
-    width: 100% !important;
-    height: 100% !important;
-    background: transparent !important;
-    margin: 0;
-    border-width: 2px;
-    border-style: solid;
-}
-.status.status-typing.status-online .spinner-item {
-    background-color: var(--status-online) !important;
-}
-.status.status-typing.status-idle .spinner-item {
-    background-color: var(--status-idle) !important;
-}
-.status.status-typing.status-dnd .spinner-item {
-    background-color: var(--status-dnd) !important;
-}
-.status.status-typing.status-invisible .spinner-item,
-.status.status-typing.status-offline .spinner-item{
-    background-color: var(--status-offline) !important;
-}
-.status.status-typing.status-streaming .spinner-item {
-    background-color: var(--status-streaming) !important;
-}
-.status.status-typing .spinner-item {
-    height: 3px;
-    width: 3px;
-    border-radius:0px;
-}
-span.spinner {
-    width: 100% !important;
-    height: 100% !important;
-}
-span.spinner > .spinner-inner {
-    top: 0 !important;
-}
-
 /*Fix Role Spacing*/
 
 .channel-members h2{margin-top: 24px !important;}
@@ -1813,4 +1778,10 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 #friends .friends-table .friends-row .friends-column-name .discord-tag .username{
     text-align: center !important;
     width: 130px !important;
+}
+
+/* Search Transparency */
+
+.search-bar .search-bar-inner {
+    border: 0px solid transparent !important;
 }
