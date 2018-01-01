@@ -1785,3 +1785,15 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .search-bar .search-bar-inner {
     border: 0px solid transparent !important;
 }
+
+/* Scrollbars */
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border-radius: 1px !important;
+    width: 6px !important;
+    border: none !important;
+}
