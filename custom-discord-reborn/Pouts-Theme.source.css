@@ -1894,7 +1894,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
     height: 20px !important;
     transition: all .2s linear;
     background-color: var(--main-color) !important;
-    margin-top: 40px !important;
+    margin-top: 20px !important;
 }
 #app-mount .guilds-wrapper::after {
     content: 'Guilds';
