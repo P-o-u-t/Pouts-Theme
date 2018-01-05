@@ -417,7 +417,8 @@ div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.raw
 /* Custom Direct Message Icon */
 
 .friends-icon {
-    background-image: url(https://betterdocs.net/dm-icon.svg)!important;
+    background-image: url("https://betterdocs.net/dm-icon.svg") !important;
+    opacity: 0.6;
 }
 
 /* Change Server Name Color */
