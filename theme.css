@@ -425,8 +425,8 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 }
 
 .embedInner-t4ag7g {
-    border: 0px !important;
-    padding: 8px 8px;
+    border: 0px solid var(--hover-color)!important;
+    padding: 8px 10px;
 }
 
 .menu-3BZuDT .status-online {
@@ -443,4 +443,59 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 
 .side-2nYO0F .item-3879bf {
     border-radius: 0px !important;
+}
+
+[class*="barFill-"] {
+    background: var(--main-color) !important; 
+}
+
+.theme-dark .bar-2cFRGz {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+[class="bar-2cFRGz"] {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+    border-radius: 0px !important;
+}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::before,
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
+    display: none;
+}
+
+.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2+.bd-pfbtn {
+    top: 60px;
+    position: absolute;
+    left: 315px;
+    background: var(--main-color);
+    font-weight: 100;
+}
+
+/* CSS Editor Buttons */
+
+.bd-detached-editor .chat .title-qAcLxz > div:last-child,
+.bd-detached-editor .headerBar-cxbhPD > div:last-child {
+    margin-right: 0 !important;
+}
+#bd-customcss-detach-container #bd-customcss-attach-controls{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-detach-controls-button > span {
+    font-size: 0 !important;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#bd-customcss-attach-controls .checkbox-group {
+    order: 1;
 }
