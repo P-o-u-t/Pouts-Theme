@@ -1,0 +1,446 @@
+/* Revert TitleBar */
+
+div[class*="titleBar-"]{height: 0px;margin-top: 0px;}
+
+div[class*="titleBar-"]:before{content: '';position: absolute;left: 0;right: 0;top: 6px;height: 14px;z-index: 3002;-webkit-app-region: drag;}
+
+div[class*="titleBar-"]:after{content: '';position: absolute;left: 0;right: 0;top: 0;height: 6px;z-index: 3002;}
+
+div[class*="wordmark-"], div[class*="winButton-"] svg{display: none;}
+
+div[class*="winButton-"]{top: 9px;height: 30px;width: 30px;right: 8px;background-position: center;opacity: .6;transition: .2s ease;}
+
+div[class*="winButton-"]:hover{-webkit-transition: all .2s ease-in-out;transition: all .2s ease-in-out;background-color: var(--hover-color) !important;border-radius: 3px;opacity: 1;}
+
+div[class*="titleBar-"] div:nth-of-type(2){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;background-repeat: no-repeat;background-position: center;background-size: 24px;}
+
+div[class*="titleBar-"] div:nth-of-type(3){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;background-repeat: no-repeat;background-position: center;background-size: 24px;}
+
+div[class*="titleBar-"] div:nth-of-type(4){background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;background-repeat: no-repeat;background-position: center 7px;background-size: 24px;}
+ 
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'],
+#friends [class*='flex-'] [class*='flex-']:last-of-type,
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type{margin-right: 98px;}
+
+.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,
+#friends [class*='flex-'] [class*='flex-']:last-of-type:after,
+[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {content: '';width: 1px;height: 22px;background-color: hsla(240,6%,97%,.1);}
+
+/* Revert TitleBar */
+
+div[class*="titleBar-"]{transform:translateY(-6px);}div[class*="winButton-"]{height: 36px;}
+
+/* Adjust Guild Margin */
+
+.app .guilds .guild:first-child {margin-top: 0px!important;padding-bottom:1px !important}
+
+/* Tooltips */
+
+.tooltip {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Better Formatting Redux Re-Skin */
+
+form .bf-toolbar{transform: translate(-3px,-45px) !important;}
+.bf-toolbar .bf-arrow{right:1px !important;top:16px !important;background-color:transparent !important;opacity:.5 !important;border-left:0px !important;border-right:0px !important;border-top:0px !important;z-index:1 !important;}
+.bf-toolbar.bf-visible .bf-arrow, .bf-toolbar.bf-hover:hover .bf-arrow{-webkit-transform:translate(12.5px,-3.5px)rotate(-90deg) !important;-ms-transform:translate(13px,-5px)rotate(-90deg) !important;background-color:transparent!important;transform:translate(13px,-5px)rotate(-90deg !important);width:46px !important;height:23px !important;opacity:.5 !important;border-top:0px solid #212121 !important;border-right:0px solid #212121 !important;border-bottom:0px solid #212121 !important;border-left:0px solid #19191b!important;z-index:0 !important;}
+.bf-toolbar:before{content:"";width:93% !important;background:transparent !important;box-shadow:0px 0px 0px 0px transparent !important;border:0px solid transparent !important;border-right:0px solid transparent !important;left:6px !important;border-radius: 0px;height:40px;}
+.bf-toolbar div:not(.bf-arrow):hover{background: transparent !important;color:#fff !important;}
+.bd-detached-css-editor #bd-customcss-attach-controls button:active,.ui-standard-sidebar-view #bd-customcss-attach-controls button:active,.ui-standard-sidebar-view #editor-detached button:active{background:var(--hover-color) !important;}
+.bf-toolbar div:not(.bf-arrow){margin-top:-2px;}
+.bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
+.bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
+.upload-modal .bf-toolbar {background: transparent !important;}
+.theme-dark .upload-modal .inner-3if5cm {background-color: rgba(0, 0, 0, 0.3) !important;}
+.bf-toolbar.bf-visible div:not(.bf-arrow), .bf-toolbar.bf-hover:hover div:not(.bf-arrow){z-index:2;}
+.bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{-webkit-transform:translate(0,-4px)!important;-ms-transform:translate(0,-4px)!important;transform:translate(0,-4px) !important;z-index:1;}
+.upload-modal .bf-toolbar {background: transparent !important;}
+.theme-dark .upload-modal .inner-3if5cm {background-color: rgba(0, 0, 0, 0.3) !important;}
+
+/* Creationdate */
+
+.textRow-1_JoJf {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+/* Categories */
+
+.theme-dark .iconCollapsed-1INdMX,
+.theme-dark .iconDefault-xzclSQ,
+.theme-dark .nameCollapsed-3_ChMu,
+.theme-dark .nameDefault-Lnjrwm
+{
+    color: var(--main-color) !important;opacity:.6;
+}
+
+/* Text Channels Not Selected */
+
+.theme-dark .nameDefaultText-QoumjC,
+.theme-dark .nameDefaultVoice-1swZoh,
+.theme-dark .nameLockedText-2fGz07,
+.theme-dark .nameLockedVoice-wNOMNa
+{
+    color: var(--main-color) !important;opacity:.6;
+}
+
+/* Channel Category Hovered Text */
+
+.theme-dark .iconHovered-3PRzOR,
+.theme-dark .iconHoveredCollapsed-jNYgOD,
+.theme-dark .nameHovered-1YFSWq,
+.theme-dark .nameHoveredCollapsed-2c-EHI
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+
+/* Text/Voice Channel Selected Text */
+
+.theme-dark .nameSelectedText-32NDX5,
+.theme-dark .nameSelectedVoice-XpjYTw
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+
+/* Text/Voice Channel Unread Text */
+
+.theme-dark .nameUnreadText-1pxldj,
+.theme-dark .nameUnreadVoice-QK4gxH
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+
+/* Text Channel Hovered Text */
+
+.theme-dark .nameHoveredText-2FFqiz
+{
+    color: var(--main-color) !important;opacity:.6;
+}
+
+/* Voice Channel Hovered Text */
+
+.theme-dark .nameHoveredVoice-TIoHRJ
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+
+/* Unread Text/Voice Channel Hovered/Active Text */
+
+.theme-dark .contentHoveredText-2HYGIY .nameUnreadText-1pxldj
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+.theme-dark .contentHoveredVoice-3qGNKh:active .nameUnreadVoice-QK4gxH,
+.theme-dark .contentSelectedVoice-gTtYM9:active .nameUnreadVoice-QK4gxH
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+/* Speaking/Hovered Username Voice Text */
+
+.theme-dark .nameHovered-28u_Fz,
+.theme-dark .nameSpeaking-3ROx9q
+{
+    color: var(--main-color) !important;opacity:1;
+}
+/* User Name Voice */
+
+.theme-dark .nameDefault-1I0lx8
+{
+    color: var(--main-color) !important;opacity:.8;
+}
+
+/* Muted Channel Text */
+
+[class*="nameMutedText-"], [class*="nameMutedVoice-"] {
+    color: var(--main-color) !important;
+    opacity: 0.4 !important;
+}
+
+/* Direct Message Name Text */
+
+#app-mount .private-channels .channel.private .channel-name {
+   color: var(--main-color) !important;
+   opacity: 0.8;
+}
+
+/* Channel Hashtags/Voice Chat Prefix */
+
+.scroller-fzNley > [class*="container-"] > [class*="containerDefault-"] > div > svg > path,
+.scroller-fzNley > [class*="container-"] > [class*="containerDefault-"] [class*="content"] > div > svg > path {
+    fill: var(--main-color) !important;opacity: 0.9 !important;
+}
+
+/* Change Online Color to Main Color */
+
+.status-online{border:4px solid var(--main-color)!important;}.channel-members .avatar-small .status-online, .private-channels .avatar-small .status-online, .account .avatar-small .status-online{border:2px solid var(--main-color)!important;}.friends-column.friends-column-status > .status-online{background-color:var(--main-color)!important;}.statusOnline-1Mp2_H{border-color:var(--main-color)!important;}.title > .status-online, [class*=titleText-] > .status-online{background:var(--main-color)!important;}
+
+/* Channel Name Color */
+
+.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu{color:var(--main-color);}
+
+/* Channel Description Color */
+
+.theme-dark .topic-1KFf6J{color:var(--main-color);opacity:.8;}
+
+/* Change Name Color to Main Color */
+
+#app-mount .accountDetails-15i-_e .username{color: var(--main-color) !important;}
+
+
+/* Change Server Name Color */
+
+.header-1tSljs {
+    color: var(--main-color) !important;
+}
+
+/* Color Call/Pin/Add/Help Buttons */
+
+.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx {
+    color: var(--main-color)
+}
+
+/* Member List Highlight Fix */
+
+.iconActive-3K4uxh {
+    color: var(--main-color);opacity:0.7
+}
+
+/* Transparent "New Message" Divider Box */
+
+.chat .divider.divider-red > span {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Color Timestamps */
+
+.theme-dark .message-group h2 span {
+    color: var(--main-color);
+}
+
+/* Playing/Gametitle Color */
+
+.private-channels .channel .channel-activity {
+    color: var(--main-color);
+}
+.private-channels .channel:hover .channel-activity {
+    color: var(--hover-color)!important;opacity:.7
+}
+
+/* Search Bar Search Color */
+
+.theme-dark .search .DraftEditor-root {
+    color: var(--main-color) !important;
+}
+
+/* @ button in DMs */
+
+.channelIcon-1KtcMW {
+    color: var(--main-color);opacity:0.5
+}
+
+/* Hide Blocked Messages */
+
+.message-group-blocked {
+    display: none;
+}
+
+/* Change Colour of Status Picker's Online to Main Colour */
+
+.ui-call-avatar-border.voice.speaking {
+    box-shadow: inset 0 0 0 3px;
+    color: var(--main-color) !important;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px;
+    color: var(--main-color) !important;
+}
+
+/* Voice Connect OK To Main Color */
+
+.inner-ptMwR- .rtc-connection-status-connected {
+    color: var(--main-color) !important;
+}
+.inner-ptMwR- .rtc-connection-quality-fine .ping {
+    background-image: url(https://i.imgur.com/oeu6oRT.png) !important;
+}
+.buttonGreenFilled-6QHNrw {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
+.buttonGreenFilledDefault-_lLQaz:hover {
+    background-color: var(--hover-color) !important;
+}
+.ui-call-avatar-border.video.speaking {
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
+}
+
+/* Server Add/Create Button Relocation */
+
+#app-mount .guild.guilds-add {
+    position: relative !important;
+    top: 0;
+    left: 0;
+}
+
+/* Uploading File Text */
+
+.message-group .comment .attachment .upload>.filename {
+    color: var(--main-color) !important;
+}
+
+/* Video Chat Avatar Ring Color */
+
+.ui-call-avatar-border.video.selected:not(.speaking) {
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
+    box-shadow: inset 0 0 0 2px;
+    color: var(--main-color) !important;
+}
+
+/* New Typing Main Color */
+
+.status.status-typing.status-online {
+    background: var(--main-color) !important;
+}
+
+/* Make Channel Categories Match Role Categories */
+
+.nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,
+.nameHovered-1YFSWq, .nameHoveredCollapsed-2c-EHI,
+.nameMuted-1n0LSj, .nameUnread-WKlSv-
+{
+    color: var(--main-color) !important;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    opacity: 0.9;
+    transform: translateY(-8px);
+}
+.nameHovered-1YFSWq {
+    opacity: 1;
+    transform: translateY(-8px);
+}
+.nameCollapsed-3_ChMu {
+    opacity: 0.6;
+    transform: translateY(-1px);
+}
+.nameHoveredCollapsed-2c-EHI {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+[class*=container-] .containerDefault-7RImuF, .containerDragAfter-3rB7mB, .containerDragBefore-12YyA9, [class*=container-] .containerUserOver-2YhVL6 {
+    margin-top: 3px;
+}
+
+/* Square Everything */
+
+*{border-radius:
+    0!important
+}
+*::after, *::before,
+*::-webkit-scrollbar-thumb, *::-webkit-scrollbar-track-piece,
+.mask-2vyqAW,
+.card-3cnrFh,
+.avatarHint-2ohlkz,
+.avatar-small .status,
+.guilds-wrapper + div,
+.guilds [class*="avatar-"],
+.message-group .avatar-large,
+.dms .guild .guild-inner:first-child,
+.guilds-wrapper .guilds .guild .guild-inner,
+.message-group .reaction, .message-group .reaction .emoji,
+.message-group .reaction::before, .message-group .reaction::after, 
+.message-group .reaction, .message-group .reaction .emoji,
+[class*="avatar-"], .status, [class*="avatarStatus"], .image-EVRGPw,
+.ui-call-avatar.video, .ui-call-avatar.video .wrapper-2G6bx_ > canvas {
+    border-radius: 0%;
+}
+.theme-dark .quickMessage-OCo-Q0 {
+    border-radius: 0% !important;
+}
+.header-3budic {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.userPopout-11hFKo .footer-2wFs91 {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.progressBar-mI5LOq {
+    background-color: var(--main-color) !important;
+}
+/* Square Reactions */
+
+.theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {
+    background: rgba(0,0,0,0.4) !important;
+}
+
+.theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {
+    background: transparent !important;
+}
+
+.theme-dark .reaction.reaction-me, .theme-light .reaction.reaction-me {
+    background: transparent !important;
+}
+
+/* Scrollbars */
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    border-radius: 0% !important;
+    width: 8px !important;
+    border: none !important;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important;
+}
+
+/* DM Squared */ 
+
+.dms .guild .guild-inner:first-child {
+    border-radius: 0px !important;
+}
+
+.guilds-wrapper .guilds .guild+.guild {
+    margin-top: 15px;
+}
+
+.embedInner-t4ag7g {
+    border: 0px !important;
+    padding: 8px 8px;
+}
+
+.menu-3BZuDT .status-online {
+    background-color: var(--main-color);
+}
+
+.sizeDefault-rZbSBU:after, .sizeMini-1Xu3Pz {
+    border-radius: 0px;
+}
+
+.theme-dark [class*="switch"][class*="valueUnchecked"] {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.side-2nYO0F .item-3879bf {
+    border-radius: 0px !important;
+}
