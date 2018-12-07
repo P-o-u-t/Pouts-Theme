@@ -1,6 +1,6 @@
 let derealized = {}
 
-const cssURL = `https://rawgit.com/P-o-u-t/Pouts-Theme/master/custom-discord-reborn/Pouts-Theme.source.css`
+const cssURL = `https://cdn.jsdelivr.net/gh/P-o-u-t/Pouts-Theme/custom-discord-reborn/Pouts-Theme.source.css`
 
 derealized.start = () => {
     addCSS()
